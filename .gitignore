@@ -33,3 +33,17 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+website/.next
+website/out
+
+# Compiled JavaScript files
+functions/lib/**/*.js
+functions/lib/**/*.js.map
+
+# TypeScript v1 declaration files
+functions/typings/
+
+# Node.js dependency directory
+functions/node_modules/
+website/node_modules/

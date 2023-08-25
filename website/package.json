@@ -6,14 +6,18 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "yarn build && firebase deploy --only hosting"
   },
   "dependencies": {
+    "@clerk/nextjs": "^4.23.2",
     "@types/node": "20.5.3",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
+    "axios": "^1.4.0",
     "eslint": "8.47.0",
     "eslint-config-next": "13.4.19",
+    "firebase": "^10.3.0",
     "next": "13.4.19",
     "react": "18.2.0",
     "react-dom": "18.2.0",
