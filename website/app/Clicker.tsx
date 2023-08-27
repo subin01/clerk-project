@@ -48,8 +48,8 @@ export default function Clicker() {
     // @ts-ignore
       const response = await fetch(
         "https://addmessage2-35l4jd5glq-uc.a.run.app",
-        {...options, mode: 'no-cors'}
-      );
+        {...options }
+      ); 
 
       // const data = await response.json();
 

@@ -18,7 +18,7 @@ export default function RootLayout({
 
 
   return (
-    <ClerkProvider>
+    <ClerkProvider publishableKey="pk_test_dmlhYmxlLWdob3VsLTMyLmNsZXJrLmFjY291bnRzLmRldiQ">
     <html lang="en">
       <body className={inter.className}>
         {children}
